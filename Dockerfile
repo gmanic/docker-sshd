@@ -19,3 +19,4 @@ COPY entry.sh /entry.sh
 ENTRYPOINT ["/entry.sh"]
 
 CMD ["/usr/sbin/sshd", "-D", "-f", "/etc/ssh/sshd_config"]
+# Docker rebuild change only
